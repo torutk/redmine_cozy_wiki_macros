@@ -1,4 +1,4 @@
-plugin_name = :cozy_wiki_macros
+plugin_name = :redmine_cozy_wiki_macros
 
 Rails.configuration.to_prepare do
   %w{query_link}.each do |file_name|
@@ -10,7 +10,7 @@ Redmine::Plugin.register plugin_name do
   name 'Cozy Wiki Macros plugin'
   author 'Toru Takahashi'
   description 'wiki macros of utilities.'
-  version '0.1.0'
-  url 'http://github.com/torutk/cozy_wiki_macros'
+  version '0.2.0'
+  url 'http://github.com/torutk/redmine_cozy_wiki_macros'
   author_url 'http://github.com/torutk'
 end
