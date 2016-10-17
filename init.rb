@@ -7,9 +7,9 @@ Rails.configuration.to_prepare do
 end
 
 Redmine::Plugin.register plugin_name do
-  name 'Cozy Wiki Macros plugin'
+  name 'Redmine Cozy Wiki Macros plugin'
   author 'Toru Takahashi'
-  description 'wiki macros of utilities.'
+  description 'utility wiki macros.'
   version '0.2.0'
   url 'http://github.com/torutk/redmine_cozy_wiki_macros'
   author_url 'http://github.com/torutk'

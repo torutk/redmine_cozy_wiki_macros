@@ -1,4 +1,4 @@
-module CozyWikiMacros::QueryLink
+module RedmineCozyWikiMacros::QueryLink
   Redmine::WikiFormatting::Macros.register do
     desc 'create macro with links to custom query.'
     macro :query_link do |obj, args|
