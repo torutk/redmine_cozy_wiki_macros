@@ -7,7 +7,7 @@ clone this repository in plugins directory and restart redmine.
 
 ## Require
 
-Compatible: Redmine 3.4.x, 4.0.x, 4.1.x
+Compatible: Redmine 3.3.x, 3.4.x, 4.0.x, 4.1.x
 
 ## wiki macros
 
